@@ -19,12 +19,3 @@ create-react-app是基于scss，需改造webpack配置文件，并下载对应lo
 
 attention: 基于函数形式时，此时this值即为undefined, 类似方法的调用，将不再基于this指向
 
-TO DO:
-
-基于案例发现问题，目前提炼相对知识点
-
-组合 vs 继承
-
-自定义Hook
-
-React virtual Dom
