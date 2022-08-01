@@ -1,16 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from "react-dom/client";
 import { Provider } from 'react-redux'
-import reportWebVitals from './reportWebVitals';
-import './index.less';
-import App from './views/app'
+import './index.css';
+import App from './App'
 import store from './store'
+import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <Provider store={store}>
-    <App></App>
-  </Provider>,
-  document.getElementById('root')
-);
+ReactDOM.createRoot(document.getElementById('root')).render(
+	<Provider store={store}>
+		<App></App>
+	</Provider>
+)
 
 reportWebVitals();
