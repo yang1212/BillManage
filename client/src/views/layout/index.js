@@ -8,8 +8,8 @@ export default function App() {
     <div>
       <HeaderNav></HeaderNav>
       <Routes>
-        <Route path={'/home'} element={<Home />}/>
-        <Route path={'/about'} element={<About />}/>
+        <Route path={'home'} element={<Home />}/>
+        <Route path={'about'} element={<About />}/>
       </Routes>
     </div>
   )
