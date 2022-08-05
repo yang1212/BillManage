@@ -12,10 +12,6 @@ const navList = [
    key: 'about',
    label: '配置',
   },
-  {
-   key: 'test',
-   label: 'API'
-  },
 ]
 function HeaderNav() {
   const navigate = useNavigate()
