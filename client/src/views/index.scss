@@ -1,0 +1,208 @@
+.container {
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  width: 100%;
+  height: 100vh;
+  .panel-left {
+    width: 500px;
+    padding: 100px 0 0 200px;
+    .btn-primary {
+      width: 100px;
+      height: 35px;
+      background: rgb(216, 85, 246);
+      text-align: center;
+      border-radius: 10px;
+      line-height: 35px;
+      font-weight: bold;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+  img {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    right: 120px;
+    top: 20%;
+  }
+}
+
+.ellips {
+  width: 320px;
+  height: 160px;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  position: relative;
+  margin: 30px 0 0 20px;
+  position: absolute;
+  top: 81px;
+  right: 85px;
+}
+.dot {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  left: 150px;
+  top: 70px;
+  background: #e0c3fc;
+  border-radius: 100%;
+  position: absolute;
+  animation: move 10s linear infinite;
+}
+@keyframes move {
+  100% {
+    transform: translate(160px, 0px);
+  }
+  97.5% {
+    transform: translate(158.0301345px, -12.5147572px);
+  }
+  95% {
+    transform: translate(152.16904261px, -24.72135955px);
+  }
+  92.5% {
+    transform: translate(142.56104387px, -36.31923998px);
+  }
+  90% {
+    transform: translate(129.4427191px, -47.02282018px);
+  }
+  87.5% {
+    transform: translate(113.13708499px, -56.56854249px);
+  }
+  85% {
+    transform: translate(94.04564037px, -64.72135955px);
+  }
+  82.5% {
+    transform: translate(72.63847996px, -71.28052194px);
+  }
+  80% {
+    transform: translate(49.4427191px, -76.0845213px);
+  }
+  77.5% {
+    transform: translate(25.02951441px, -79.01506725px);
+  }
+  75% {
+    transform: translate(0px, -80px);
+  }
+  72.5% {
+    transform: translate(-25.02951441px, -79.01506725px);
+  }
+  70% {
+    transform: translate(-49.4427191px, -76.0845213px);
+  }
+  67.5% {
+    transform: translate(-72.63847996px, -71.28052194px);
+  }
+  65% {
+    transform: translate(-94.04564037px, -64.72135955px);
+  }
+  62.5% {
+    transform: translate(-113.13708499px, -56.56854249px);
+  }
+  60% {
+    transform: translate(-129.4427191px, -47.02282018px);
+  }
+  57.5% {
+    transform: translate(-142.56104387px, -36.31923998px);
+  }
+  55% {
+    transform: translate(-152.16904261px, -24.72135955px);
+  }
+  52.5% {
+    transform: translate(-158.0301345px, -12.5147572px);
+  }
+  50% {
+    transform: translate(-160px, 0px);
+  }
+  47.5% {
+    transform: translate(-158.0301345px, 12.5147572px);
+  }
+  45% {
+    transform: translate(-152.16904261px, 24.72135955px);
+  }
+  42.5% {
+    transform: translate(-142.56104387px, 36.31923998px);
+  }
+  40% {
+    transform: translate(-129.4427191px, 47.02282018px);
+  }
+  37.5% {
+    transform: translate(-113.13708499px, 56.56854249px);
+  }
+  35% {
+    transform: translate(-94.04564037px, 64.72135955px);
+  }
+  32.5% {
+    transform: translate(-72.63847996px, 71.28052194px);
+  }
+  30% {
+    transform: translate(-49.4427191px, 76.0845213px);
+  }
+  27.5% {
+    transform: translate(-25.02951441px, 79.01506725px);
+  }
+  25% {
+    transform: translate(0px, 80px);
+  }
+  22.5% {
+    transform: translate(25.02951441px, 79.01506725px);
+  }
+  20% {
+    transform: translate(49.4427191px, 76.0845213px);
+  }
+  17.5% {
+    transform: translate(72.63847996px, 71.28052194px);
+  }
+  15% {
+    transform: translate(94.04564037px, 64.72135955px);
+  }
+  12.5% {
+    transform: translate(113.13708499px, 56.56854249px);
+  }
+  10% {
+    transform: translate(129.4427191px, 47.02282018px);
+  }
+  7.5% {
+    transform: translate(142.56104387px, 36.31923998px);
+  }
+  5% {
+    transform: translate(152.16904261px, 24.72135955px);
+  }
+  2.5% {
+    transform: translate(158.0301345px, 12.5147572px);
+  }
+  0% {
+    transform: translate(160px, 0px);
+  }
+}
+
+// $a : 160px;  // 椭圆x轴半径(长半径)
+// $b : 80px;  // 椭圆y轴半径(短半径)
+// $s : 40;  // 坐标点的数目(数目越大，动画越精细)
+
+// .ellips{
+//   width: $a*2 ;
+//   height: $b*2;
+//   border-radius: 100%;
+//   border: 1px solid #333;
+//   position: relative;
+//   margin: 30px 0 0 20px;
+// }
+// .dot{
+//   width: 20px;
+//   height: 20px;
+//   left: $a - 10px;
+//   top: $b - 10px;
+//   background: red;
+//   border-radius: 100%;
+//   position: absolute;
+//   animation: move 10s linear infinite;
+// }
+
+// @keyframes move{
+//   @for $i from 1 through $s {
+//     #{$i * 100%/$s}  {
+//       transform: translate($a*cos(360deg/$s*$i), $b*sin(360deg/$s*$i)) // 不懂为啥报错
+//     }
+//   }  
+// }
