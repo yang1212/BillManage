@@ -1,1 +1,1 @@
-域名：https://tool.yangfu.asia/
+访问地址：[goodgoodstudy.win](https://goodgoodstudy.win/)

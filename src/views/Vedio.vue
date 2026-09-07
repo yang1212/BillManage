@@ -97,7 +97,7 @@
           <div class="p-6 md:p-8">
             <div class="flex items-center mb-6">
               <div class="w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center mr-4">
-                <span class="text-pink-600 font-bold text-lg">2</span>
+                <span class="text-pink-600 font-bold text-lg">3</span>
               </div>
               <h2 class="text-xl md:text-2xl font-bold text-gray-800">小红书资源</h2>
             </div>
